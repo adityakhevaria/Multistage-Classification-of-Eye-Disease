@@ -934,9 +934,9 @@ elseif strcmp(Exudates_output, 'Healthy')
 end
 
 %% Send the email with the PDF attachments
-senderEmail = '';  % Your Gmail email address
-appPassword = '';    % Your Gmail App Password
-recipientEmail = '';
+senderEmail = 'adityakhevaria@gmail.com';  % Your Gmail email address
+appPassword = 'ovve bgnn soda cbsh';
+recipientEmail = 'adityakh7503@gmail.com';
 subject = 'Medical Diagnosis Report';
 
 % Set up the SMTP server settings for Gmail
@@ -1060,8 +1060,8 @@ elseif strcmp(Exudates_YPred, 'Exudates')
 end
 
 
-Channel_ID = 2755090;            % Replace with your channel ID
-Write_API_Key = 'JF377LHSR6M0IYNQ'; % Replace with your Write API Key
+Channel_ID = 2805827;            % Replace with your channel ID
+Write_API_Key = '9XUOYA18GIBB1A5G'; % Replace with your Write API Key
 
 % Send the data to ThingSpeak
 thingSpeakWrite(Channel_ID, [data1, data2, data3, data4, data5, data6, data7, data8], 'Fields', [1, 2, 3, 4, 5, 6, 7, 8], 'WriteKey', Write_API_Key);

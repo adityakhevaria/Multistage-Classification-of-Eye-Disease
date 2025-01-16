@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "JWT_SECRET": "@jwt_secret",
+    "EMAIL_USER": "@email_user",
+    "EMAIL_PASS": "@email_pass",
+    "RECIPIENT_EMAIL": "@recipient_email",
+    "THINGSPEAK_CHANNEL_ID": "@thingspeak_channel_id",
+    "THINGSPEAK_API_KEY": "@thingspeak_api_key"
+  }
+}
+
